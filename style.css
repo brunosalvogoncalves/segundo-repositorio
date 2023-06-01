@@ -4,16 +4,16 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: black;
 }
 
 header {
     background-color: black;
-     color: aqua;
+     color: aliceblue;
 }
 
 .cabecalho{
-    background-color: blue;
+    background-color: black;
     color: black;
     display: flex;
     justify-content: space-around;
@@ -29,4 +29,24 @@ header {
     margin: 0 16px;
     padding: 24px 0;
 
+}
+.secao1{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 24px 0;
+}
+
+.secao1-titulo{
+    padding: 24px 0;
+}
+
+.secao1-imagem {
+ width: 30%;
+}
+
+.secao1-div-conteudo{
+ width: 35%;
 }
