@@ -5,16 +5,18 @@
 
 body {
     background-color: black;
+    color: white;
+    font-family: 'Oswald' , sans-serif;
 }
 
 header {
     background-color: black;
-     color: aliceblue;
+     color: white;
 }
 
 .cabecalho{
-    background-color: black;
-    color: black;
+    background-color: white;
+    color:  black;
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
