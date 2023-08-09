@@ -1,28 +1,41 @@
+@import url(/styles/header.css);
+
+:root {
+
+    --cor-principal: blue;
+    --cor-secundaria: lightgray;
+    --cor-terciaria: darkgray;
+    --cor-de-escrita: black;
+
+
+
+}
+
 * {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: black;
     color: white;
-    font-family: 'Oswald' , sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 header {
     background-color: black;
-     color: white;
+    color: white;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: white;
-    color:  black;
+    color: black;
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     width: 20%;
 }
 
@@ -33,33 +46,33 @@ header {
 
 }
 
-.secao1{
-    background-image: linear-grhttps://docs.google.com/presentation/d/1cyo5xvQlG74sbtKy32TJg16YawFCigh1mEH8QoBMlH0/edit?usp=sharingadient(#424E61,#16CFF8);
-    color:white;
+.secao1 {
+    background-image: linear-grhttps: //docs.google.com/presentation/d/1cyo5xvQlG74sbtKy32TJg16YawFCigh1mEH8QoBMlH0/edit?usp=sharingadient(#424E61,#16CFF8);
+        color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-     padding: 24px 0;
+    padding: 24px 0;
 }
 
-.secao1-titulo{
+.secao1-titulo {
     padding: 24px 0;
 }
 
 .secao1-imagem {
- width: 30%;
+    width: 30%;
 }
 
-.secao1-div-conteudo{
- width: 35%;
+.secao1-div-conteudo {
+    width: 35%;
 }
 
-.nome-img{
+.nome-img {
     width: 120px;
 
 }
 
-.icon-redes{
+.icon-redes {
     width: 24px;
     padding: 4px 8px;
 }

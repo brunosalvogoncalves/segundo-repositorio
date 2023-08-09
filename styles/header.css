@@ -1,2 +1,41 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco);
+    position: relative;
+}
 
+.cabecalho__menu {
+    display: inline-block;
+    background-image: url("../img/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.cabecalho__lista {
+    display: none;
+    background-color: var(--preto);
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__menu:checked~.cabecalho__lista {
+    display: block;
+}
+
+.container__menu {
+    display: none;
+}
