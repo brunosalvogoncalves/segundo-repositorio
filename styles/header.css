@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: var(--branco);
     position: relative;
+    align-items: center;
 }
 
 .cabecalho__menu {
@@ -21,6 +22,7 @@
 }
 
 .container__imagem {
+    width: 10%;
     padding: 1em;
 }
 
@@ -38,4 +40,44 @@
 
 .container__menu {
     display: none;
+}
+
+.cabecalho-lista-titulo{
+    color: var(--vermelho);
+}
+
+.cabecalho-lista-item{
+    color: var(--cinza);
+    padding: 1em;
+}
+
+.menu__lita-item{
+color: var(--cinza);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    .container-titulo{
+        display: block;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .cabecalho__menu{
+     display: none;
+    }
+
+    .container__favorito{
+        display: none;
+    }
 }
