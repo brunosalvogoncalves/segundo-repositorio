@@ -1,25 +1,19 @@
 @import url(/styles/header.css);
 
 :root {
-
-    --cor-principal: blue;
+    --cor-principal: rgba(0, 17, 255, 0.562);
     --cor-secundaria: lightgray;
-    --cor-terciaria: darkgray;
-    --cor-de-escrita: black;
+    --cor-terciaria: rgb(119, 0, 255);
+    --cor-de-escrita: rgb(255, 255, 255);
     --fonte-principal: "Oswald";
     --fonte-secundaria: "Bebas"
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: black;
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 header {
@@ -27,28 +21,9 @@ header {
     color: white;
 }
 
-.cabecalho {
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem {
-    width: 20%;
-}
-
-.cabecalho-lista-item {
-    display: inline-block;
-    margin: 0 16px;
-    padding: 24px 0;
-
-}
-
 .secao1 {
     background-image: linear-grhttps: //docs.google.com/presentation/d/1cyo5xvQlG74sbtKy32TJg16YawFCigh1mEH8QoBMlH0/edit?usp=sharingadient(#424E61,#16CFF8);
-        color:white;
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
