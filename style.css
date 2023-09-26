@@ -1,9 +1,9 @@
 @import url(/styles/header.css);
 
 :root {
-    --cor-principal: rgba(0, 17, 255, 0.562);
+    --cor-principal: rgba(0, 0, 0, 0.76);
     --cor-secundaria: lightgray;
-    --cor-terciaria: rgb(119, 0, 255);
+    --cor-terciaria: rgba(28, 15, 141, 0.589);
     --cor-de-escrita: rgb(255, 255, 255);
     --fonte-principal: "Oswald";
     --fonte-secundaria: "Bebas"
