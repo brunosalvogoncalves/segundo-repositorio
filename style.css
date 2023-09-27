@@ -2,7 +2,7 @@
 
 :root {
     --cor-principal: rgba(0, 0, 0, 0.76);
-    --cor-secundaria: lightgray;
+    --cor-secundaria: rgb(122, 119, 119);
     --cor-terciaria: rgba(28, 15, 141, 0.589);
     --cor-de-escrita: rgb(255, 255, 255);
     --fonte-principal: "Oswald";
