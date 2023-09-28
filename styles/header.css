@@ -89,12 +89,13 @@
     }
 
     .cabecalho__menu{
-     display: none;
+        display: none;
     }
 
     .cabecalho__favorito{
         display: none;
     }
+
     .opcoes{
         display: flex;
     }
@@ -103,6 +104,40 @@
         padding: 0 2em;
         text-transform: uppercase;
         color: var(--branco);
+    }
 
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--branco);
+    }
+
+    .opcoes__botao:checked ~.cabecalho-lista{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--branco);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
