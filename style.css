@@ -14,11 +14,15 @@ body {
     background-color: black;
     color: white;
     font-family: var(--fonte-secundaria);
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
 .secao1 {
