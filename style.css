@@ -39,7 +39,8 @@ header {
 }
 
 .secao1-imagem {
-    width: 30%;
+    padding: 1em;
+    width: 10%;
 }
 
 .secao1-div-conteudo {
