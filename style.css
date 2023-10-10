@@ -26,7 +26,7 @@ header {
 }
 
 .secao1 {
-    background-image: linear-grhttps: //docs.google.com/presentation/d/1cyo5xvQlG74sbtKy32TJg16YawFCigh1mEH8QoBMlH0/edit?usp=sharingadient(#424E61,#16CFF8);
+    background-image: linear-grhttps; /docs.google.com/presentation/d/1cyo5xvQlG74sbtKy32TJg16YawFCigh1mEH8QoBMlH0/edit?usp=sharingadient(#424E61,#16CFF8);
     color:white;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ header {
 }
 
 .nome-img {
-    width: 120px;
+    width: 50px;
 
 }
 
