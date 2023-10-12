@@ -3,10 +3,10 @@
  :root{
     --cor-principal: rgb(255, 255, 255);
     --cor-secundaria: rgb(255, 255, 255);
-    --cor-terciaria: rgb(255, 255, 255);
+    --cor-terciaria: darkgray;
     --cor-de-escrita: rgb(255, 255, 255);
     --branco:#FFFFFF;
-    --azul: #000000;
+    --azul: #3d89ec;
     --fonte-principal: "Oswald";
     --fonte-secundaria: "Roboto";
 
@@ -46,8 +46,4 @@ body {
 .icon-redes{
     width: 24px;
     padding: 4px 8px;
-}
-
-.esportividade-e-confortabilidade {
-    width: 400px;
 }
