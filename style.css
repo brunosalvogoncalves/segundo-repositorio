@@ -1,37 +1,29 @@
 @import url(/styles/header.css);
 
-:root {
-    --cor-principal: rgba(0, 0, 0, 0.76);
-    --cor-secundaria: rgb(122, 119, 119);
-    --cor-terciaria: rgba(28, 15, 141, 0.589);
+ :root{
+    --cor-principal: rgb(255, 255, 255);
+    --cor-secundaria: rgb(255, 255, 255);
+    --cor-terciaria: rgb(255, 255, 255);
     --cor-de-escrita: rgb(255, 255, 255);
+    --branco:#FFFFFF;
+    --azul: #000000;
     --fonte-principal: "Oswald";
-    --fonte-secundaria: "Bebas"
+    --fonte-secundaria: "Roboto";
 
 }
-
+     
 body {
-    background-color: black;
-    color: white;
-    font-family: var(--fonte-secundaria);
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-}
+    background-color:var(--cor-terciaria);
+    font-family: var(var(--fonte-principal));
+ }
 
 .secao1 {
-    background-image: linear-grhttps; /docs.google.com/presentation/d/1cyo5xvQlG74sbtKy32TJg16YawFCigh1mEH8QoBMlH0/edit?usp=sharingadient(#424E61,#16CFF8);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
+     background-image: linear-gradient(#424E61,#16CFF8);
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 24px 0;
 }
 
 .secao1-titulo {
@@ -39,23 +31,23 @@ header {
 }
 
 .secao1-imagem {
-    width: 10%;
+ width: 30%
 }
 
-.secao1-div-conteudo {
+.secao1-div-conteudo{
     width: 35%;
 }
-
-.nome-img {
-    width: 150px;
+ 
+.nome-img{
+    width: 200px;
 
 }
 
-.icon-redes {
+.icon-redes{
     width: 24px;
     padding: 4px 8px;
 }
- 
-.foto-de-exemplo{
-    width: 300px;
+
+.esportividade-e-confortabilidade {
+    width: 400px;
 }
