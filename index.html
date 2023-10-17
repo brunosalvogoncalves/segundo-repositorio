@@ -16,7 +16,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -61,7 +63,8 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.png" alt="meus favoritos"></a>
+            <a href="#"><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.png"
+                    alt="meus favoritos"></a>
             <a href="#" class="container__link">
                 <img class="cabecalho-imagem" src="./img/contato.png" alt="contatos">
                 <p class="container__texto">Fale conosco</p>
@@ -108,9 +111,9 @@
         </div>
     </section>
 
-    <section        >
-        <div        >
-            <img src="./img/bmw.png"   class="exemplos"      >
+    <section>
+        <div>
+            <img src="./img/bmw.png" class="exemplos">
         </div>
 
         <div>
@@ -118,6 +121,48 @@
         </div>
 
         <div></div>
+    </section>
+
+    <section class="carrossel">
+
+        <h2> Nossos Produtos e Serviços</h2>
+
+        <div class="carrossel__container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">imagem 1</div>
+                        <img src="./img/interior bmw.webp" alt="Interior e confortibilidae">
+                    <div class="swiper-slide">imagem 2</div>
+                        <img src="./img/interior mercedes.webp" alt="Interior agressivo">
+                    <div class="swiper-slide">imagem 3</div>
+                        <img src="./img/mecanico.jpg" alt="Serviços profissionais de qualidade">
+                    <div class="swiper-slide">imagem 4</div>
+                        <img src="./img/mecanica.jpg" alt="Profisionais especializados em todas marcas e modelos">
+
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+
+        <div class="card">
+
+
+        </div>
+
+
+
     </section>
 
 </body>
