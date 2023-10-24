@@ -25,6 +25,12 @@
     margin: .5em 0;
 }
 
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: ;
+
+}
 
 
 
