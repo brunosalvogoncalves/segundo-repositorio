@@ -1,18 +1,18 @@
 .cabecalho {
+    background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
-    background-color: var(--azul);
-    position: relative;
     align-items: center;
+    position: relative;
 }
 
 .cabecalho__menu {
-    display: inline-block;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 24px;
-    height: 24px;
+    display: inline-block;
 }
 
 .container {
@@ -21,8 +21,8 @@
     align-items: center;
 }
 
-.cabecalho-imagem {
-   padding: 1em;
+.cabecalho-imagem{
+    padding: 1em;
 }
 
 .container__imagem {
@@ -32,7 +32,7 @@
 
 .cabecalho-lista {
     display: none;
-    background-color: var(--branco);
+    background-color: var(--cor-de-fundo);
     position: absolute;
     top: 100%;
     width: 50vw;
@@ -46,24 +46,24 @@
     display: none;
 }
 
-.cabecalho-lista-titulo {
+.cabecacalho-lista-titulo{
     padding: 1em;
-    color: var(--azul);
+    color: var(--preto);
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.cabecalho-lista-item {
+.cabecalho-lista-item{
     padding: 1em;
     color: var(--azul);
 }
 
-.container-titulo {
+.container-titulo{
     display: none;
 }
 
-.menu__lista-item {
-    background: var(--azul);
+.menu__lista-item{
+    background: var(--cor-principal);
     color: var(--azul);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -85,7 +85,6 @@
         font-family: var(--fonte-principal);
         font-weight: 400;
         font-size: 30px;
-        color: var(--branco);
     }
 
     .cabecalho__menu{
@@ -109,7 +108,7 @@
     .opcoes__link{
         text-decoration: none;
         color: var(--branco);
-    }BSG AUTOS
+    }
 
     .opcoes__botao:checked ~.cabecalho-lista{
         display: block;
@@ -119,9 +118,9 @@
     .opcoes__botao{
         display: none;
     }
+
+   
 }
-
-
 
 @media screen and (min-width: 1728px) {
     .container__link {
