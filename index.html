@@ -1,246 +1,252 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Página Principal</title>
+    <title>Página Principal</title>
 
-        <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-        <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap" rel="stylesheet">
 
-    </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
 
-    <body>
-        <header class="cabecalho">
-            <div class="container">
-                <input type="checkbox" id="menu" class="container__botao">
-                <label for="menu">
-                    <span class="cabecalho__menu container__imagem"></span>
-                </label>
+</head>
 
-                <ul class="cabecalho-lista">
-                    <li class="cabecacalho-lista-titulo">Categorias</li>
-                    <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Serviços</a></li>
-                    <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Projetos</a></li>
-                    <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Contato</a></li>
-                </ul>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu container__imagem"></span>
+            </label>
 
-                <img class="cabecalho-imagem container__imagem" src="./img/BRUNO AUTOS.png" alt="logo generico">
-                <h1 class="container-titulo"> BSG AUTOS </h1>
-            </div>
-
-            <ul class="opcoes">
-                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-                <label for="opcoes-menu">
-                    <li class="opcoes__item">Categorias</li>
-                </label>
-    
-                <ul class="cabecalho-lista">
-                    <li class="cabecalho-lista-item">
-                        <a href="#" class="menu__lista-item">manutencao</a>
-                    </li>
-                    <li class="cabecalho-lista-item">
-                        <a href="#" class="menu__lista-item">Okms</a>
-                    </li>
-                    <li class="cabecalho-lista-item">
-                        <a href="#" class="menu__lista-item">seminovos</a>
-                    </li>                    
-                </ul>
-    
-                <li class="opcoes__item"><a href="#" class="opcoes__link">Serviços</a></li>
-                <li class="opcoes__item"><a href="#" class="opcoes__link">Projetos</a></li>
+            <ul class="cabecalho-lista">
+                <li class="cabecacalho-lista-titulo">Categorias</li>
+                <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Serviços</a></li>
+                <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Projetos</a></li>
+                <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Contato</a></li>
             </ul>
 
-            <div class="container">
-                <a href="#"><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.png" alt="Meus favoritos"> </a>
-                <a href="#" class="container__link">
-                    <img class="cabecalho-imagem" src="./img/contato.png" alt="Contatos">
-                    <p class="container__texto">Fale conosco</p>
-                </a>
-                <a href="#" class="container__link">
-                    <img class="cabecalho-imagem" src="./img/compras1.png" alt="Carrinho de compras">
-                    <p class="container__texto">Minha sacola</p>
-                </a>
-                <a href="#" class="container__link">
-                    <img class="cabecalho-imagem" src="./img/usuario.png" alt="Meu Perfil">
-                    <p class="container__texto">Meu perfil</p>
-                </a>
-            </div>
+            <img class="cabecalho-imagem container__imagem" src="./img/BRUNO AUTOS.png" alt="logo generico">
+            <h1 class="container-titulo"> BSG AUTOS </h1>
+        </div>
 
-        </header>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
 
-        
-
-        <section class="banner">
-            <h2 class="banner__titulo">Aqui temos as solucoes para seus problemas</h2>
-            <p class="banner__texto">Encontre em nossa "página" o que precisa para seu "conforto"!</p>
-            <input type="search" class="banner__pesquisa" placeholder="Faça sua busca em nossos serviços">
-        </section>
-
-        <section class="secao1">
-
-
-            <div class="secao1-div-conteudo">
-                <h2 class="secao1-titulo"> Quem somos: </h2>
-                <p class="secao1-p1">Somos uma empresada especializada na manutencao e vendas de carros </p>
-                <p class="secao1-p2"> Oferecemos o melhor servico e confianca com o cliente </p>
-            </div>
-
-            <img class="secao1-imagem" src="./img/bmw.png">
-
-        </section>
-
-        <section class="carrossel">
-                
-            <h2 class="carrossel__titulo">Nossos Produtos&Serviços</h2>
-            
-            <!-- Slider main container -->
-            <div class="carrossel__container">
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-        
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <img src="img/mecanico.jpg" alt="Melhores mecanicos da cidade">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/mecanica.jpg" alt="melhores pecas do mercado">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/loja.png" alt="Loja bem localizada">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/interior bmw.webp" alt="melhores confortaveis">
-                        </div>
-                    </div><!DOCTYPE html>
-                    <html lang="pt-br">
-                    
-                    <head>
-                        <meta charset="UTF-8">
-                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    
-                        <title>Pagina Principal</title>
-                    
-                    …    </section>
-                    
-                    </body>
-                    
-                    </html>
-        
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-        
-                <div class="card">
-                    <!-- 1º linha -->
-                    <div class="card__descricao">
-                        <!-- 1º coluna -->
-                        <div class="descricao">
-                            <h3 class="descricao__titulo">Estamos entusiasmados em apresentar uma oferta única que não apenas ajuda você a atingir seus objetivos de emagrecimento, mas também a construir uma forma física mais forte. Adquira nosso suplemento especializado para emagrecimento e ganho de massa muscular e receba como brinde uma peça de roupa fitness de alta qualidade para trazer seu estilo durante seus treinos.</h3>
-                            <h2 class="descricao__titulo-produto">Transformação Total: Pacote Especial de Emagrecimento e Ganho Muscular + Brinde Exclusivo de Roupa Fitness!</h2>
-                            <p class="descricao__texto">.</p>
-                        </div>
-                        <!-- 2º coluna -->
-                        <img src="img/kit.png"
-                        class="descricao__imagem">
-                    </div>
-        
-                    <!-- 2º linha -->
-                    <div class="card__botoes">
-                        <!-- 1º coluna -->
-                        <ul class="botoes">
-                            <li class="botoes__item"><img src="img/favorito.svg" alt="Favoritar livro"></li>
-                        </ul>
-                        <!-- 2º coluna -->
-                        <a href="#" class="botoes__ancora">Adiquira já</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="apresentacao">
-            <h2 class="apresentacao-titulo">Apresentação:</h2>
-            <div class="apresentacao-tudo">
-                <span></span>
-                <div class="div-apresentacao">
-                    <h3 class="nome">BRUNO SALVO</h3>
-                    <a href=""><img class="nome-img" src="./img/bruno.png" alt="Foto Pessoal"></a>
-                    <div class="icones">
-                        <a href="https://github.dev/brunosalvogoncalves/segundo-repositorio">
-                            <img class="icon-redes" src="./img/github.png" alt="icone github">
-                        </a>
-                        <a href="#">
-                            <img class="icon-redes" src="./img/insta.jpeg" alt="icone instagran">
-                        </a>
-                        <a href="#">
-                            <img class="icon-redes" src="./img/whats.jpeg" alt="icone whatsapp">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="topicos">
-            <h2 class="topicos__titulo">NOSSOS SERVIÇOS PRESTADOS</h2>
-            <ul class="topicos__lista">
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">Manutençao</a>
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">manutencao</a>
                 </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">mecanica especializada</a>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Okms</a>
                 </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">seminovos</a>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">seminovos</a>
                 </li>
-                <li class="topicos__item">
-                    <a href="#" class="topicos__link">0km </a>
-                </li>
-                
             </ul>
-        </section>
 
-        <section class="contato">
-            <div class="contato__descricao">
-                <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-                <p class="contato__texto">seminovos e 0kms por precos imbativeis</p>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Serviços</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Projetos</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.png" alt="Meus favoritos">
+            </a>
+            <a href="#" class="container__link">
+                <img class="cabecalho-imagem" src="./img/contato.png" alt="Contatos">
+                <p class="container__texto">Fale conosco</p>
+            </a>
+            <a href="#" class="container__link">
+                <img class="cabecalho-imagem" src="./img/compras1.png" alt="Carrinho de compras">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img class="cabecalho-imagem" src="./img/usuario.png" alt="Meu Perfil">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+
+    </header>
+
+
+
+    <section class="banner">
+        <h2 class="banner__titulo">Aqui temos as solucoes para seus problemas</h2>
+        <p class="banner__texto">Encontre em nossa "página" o que precisa para seu "conforto"!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Faça sua busca em nossos serviços">
+    </section>
+
+    <section class="secao1">
+
+
+        <div class="secao1-div-conteudo">
+            <h2 class="secao1-titulo"> Quem somos: </h2>
+            <p class="secao1-p1">Somos uma empresada especializada na manutencao e vendas de carros </p>
+            <p class="secao1-p2"> Oferecemos o melhor servico e confianca com o cliente </p>
+        </div>
+
+        <img class="secao1-imagem" src="./img/bmw.png">
+
+    </section>
+
+    <section class="carrossel">
+
+        <h2 class="carrossel__titulo">Nossos Produtos&Serviços</h2>
+
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/mecanico.jpg" alt="Melhores mecanicos da cidade">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/mecanica.jpg" alt="melhores pecas do mercado">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/loja.png" alt="Loja bem localizada">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/interior bmw.webp" alt="melhores confortaveis">
+                    </div>
+                </div>
+                <!DOCTYPE html>
+                <html lang="pt-br">
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                    <title>Pagina Principal</title>
+
+                    …
+    </section>
+
+</body>
+
+</html>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+<div class="card">
+    <!-- 1º linha -->
+    <div class="card__descricao">
+        <!-- 1º coluna -->
+        <div class="descricao">
+            <h3 class="descricao__titulo">Estamos entusiasmados em apresentar uma oferta única que não apenas ajuda você
+                a atingir seus objetivos de emagrecimento, mas também a construir uma forma física mais forte. Adquira
+                nosso suplemento especializado para emagrecimento e ganho de massa muscular e receba como brinde uma
+                peça de roupa fitness de alta qualidade para trazer seu estilo durante seus treinos.</h3>
+            <h2 class="descricao__titulo-produto">Transformação Total: Pacote Especial de Emagrecimento e Ganho Muscular
+                + Brinde Exclusivo de Roupa Fitness!</h2>
+            <p class="descricao__texto">.</p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/kit.png" class="descricao__imagem">
+    </div>
+
+    <!-- 2º linha -->
+    <div class="card__botoes">
+        <!-- 1º coluna -->
+        <ul class="botoes">
+            <li class="botoes__item"><img src="img/favorito.svg" alt="Favoritar livro"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botoes__ancora">Adiquira já</a>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="apresentacao">
+    <h2 class="apresentacao-titulo">Apresentação:</h2>
+    <div class="apresentacao-tudo">
+        <span></span>
+        <div class="div-apresentacao">
+            <h3 class="nome">BRUNO SALVO</h3>
+            <a href=""><img class="nome-img" src="./img/bruno.png" alt="Foto Pessoal"></a>
+            <div class="icones">
+                <a href="https://github.dev/brunosalvogoncalves/segundo-repositorio">
+                    <img class="icon-redes" src="./img/github.png" alt="icone github">
+                </a>
+                <a href="#">
+                    <img class="icon-redes" src="./img/insta.jpeg" alt="icone instagran">
+                </a>
+                <a href="#">
+                    <img class="icon-redes" src="./img/whats.jpeg" alt="icone whatsapp">
+                </a>
             </div>
-            <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
-        </section>
-    
-        <hr />
-        
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    
-        <footer class="rodape">
-            <h2 class="rodape__titulo">BSG.AUTOS</h2>
-        </footer>
-    
-    
-    
-        <script>
-            const swiper = new Swiper('.swiper', {
-                spaceBetween: 10,
-                slidesPerView: 2,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                },
-            });
-        </script>
-    </body>
+        </div>
+    </div>
+</section>
+
+<section class="topicos">
+    <h2 class="topicos__titulo">NOSSOS SERVIÇOS PRESTADOS</h2>
+    <ul class="topicos__lista">
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">Manutençao</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">mecanica especializada</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">seminovos</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">0km </a>
+        </li>
+
+    </ul>
+</section>
+
+<section class="contato">
+    <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">seminovos e 0kms por precos imbativeis</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr />
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<footer class="rodape">
+    <h2 class="rodape__titulo">BSG.AUTOS</h2>
+</footer>
+
+
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 2,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+</script>
+</body>
 
 </html>
